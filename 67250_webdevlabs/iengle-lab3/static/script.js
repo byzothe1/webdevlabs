@@ -77,7 +77,3 @@ function greetingFunc() {
     let h2 = document.getElementById("greeting");
     h2.innerHTML = greet + " my name is isaiah engle";
 }
-
-if (window.location.href == "http://127.0.0.1:5500/iengle-lab3/index.html") {
-    greetingFunc();
-}
