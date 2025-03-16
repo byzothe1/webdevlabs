@@ -64,13 +64,13 @@ function greetingFunc() {
     if (h<12) {
         greet = "good morning,";
     }
-    else if (12<h<18) {
+    else if (12<h && h<18) {
         greet = "good afternoon,";
     }
-    else if (18<h<20) {
+    else if (18<h && h<20) {
         greet = "good evening,";
     }
-    else if (20<h<24 || 0<h<5) {
+    else if ((20<h && h<24) || (0<h && h<5)) {
         greet = "good night,";
     }
 
@@ -78,4 +78,4 @@ function greetingFunc() {
     h2.innerHTML = greet + " my name is isaiah engle";
 }
 
-window.onload = greetingFunc;
+window.onload = greetingFunc();
