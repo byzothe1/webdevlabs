@@ -77,3 +77,5 @@ function greetingFunc() {
     let h2 = document.getElementById("greeting");
     h2.innerHTML = greet + " my name is isaiah engle";
 }
+
+greetingFunc();
