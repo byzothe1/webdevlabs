@@ -78,4 +78,4 @@ function greetingFunc() {
     h2.innerHTML = greet + " my name is isaiah engle";
 }
 
-window.onLoad = greetingFunc;
+window.onload = greetingFunc;
